@@ -1,3 +1,5 @@
+
+The source code is persent in the master branch .
 TO use this project you have to follow some steps :
 
 first  in appsetting.json file go and enter you ftp host name ,user, passward, and the directory name.
