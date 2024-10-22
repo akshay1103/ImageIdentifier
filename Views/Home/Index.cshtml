@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Image Gallary";
+}
+<h3>Welcome To watch Images Gallary</h3>
+<div id="image-gallary"></div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
+
+<script>
+    function fetchImages(){
+        $.get("/api/GettingImages", function (data) { //here call the api with attribute base routing
+            const gallery = $("#image-gallery");
+            gallery.empty(); //to creat this gallery empty
+            console.log("gallary", gallery)
+            data.forEach(function (image) {
+                gallery.append('<img src="${image}" alt ="Image" style="max-width: 200px;margin: 10px;"/>');
+            });
+        });
+    }
+    $(document).ready(function () {
+        fetchImages();// called the function 
+        setInterval(fetchImages, 20000); // set the time interval           
+  });
+</script>

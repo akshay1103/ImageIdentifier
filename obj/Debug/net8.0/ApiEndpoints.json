@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "ImageIdentifier.Controllers.GettingImagesController",
+    "Method": "GetImages",
+    "RelativePath": "api/GettingImages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

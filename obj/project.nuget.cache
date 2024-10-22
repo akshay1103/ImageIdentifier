@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wz+14y5cyLA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\ImageIdentifier\\ImageIdentifier\\ImageIdentifier.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\fluentftp\\51.1.0\\fluentftp.51.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
